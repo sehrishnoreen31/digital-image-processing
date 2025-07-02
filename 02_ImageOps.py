@@ -1,6 +1,6 @@
 from PIL import Image, ImageOps
 
-my_image = Image.open('Wallapers\sd (11).jpg')
+my_image = Image.open('Wallpapers\sd (11).jpg')
 # my_image.show()
 
 # convert to gray scale

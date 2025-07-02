@@ -1,6 +1,6 @@
 from PIL import Image
 import matplotlib.pyplot as plt
-my_img = Image.open('Wallapers\sd (3).jpg')
+my_img = Image.open('Wallpapers\sd (3).jpg')
 
 # image format
 print(my_img.format)
