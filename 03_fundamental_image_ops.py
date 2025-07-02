@@ -10,7 +10,13 @@ url = 'https://hips.hearstapps.com/hmg-prod/images/spring-flowers-65de4a13478ee.
 urllib.request.urlretrieve(url, 'Wallpapers/Flowers.png')
 # show image
 downloaded_image = Image.open('Wallpapers/Flowers.png')
-downloaded_image.show()
+# downloaded_image.show()
 
 # save an image
 downloaded_image.save('Wallpapers/Flowers2.jpg')
+
+# create new image
+new_image = Image.new('RGB', (500,500), color='blue')
+# new_image.show()
+new_image = Image.new('RGB', (500,500), color='#c30010')
+new_image.show()
